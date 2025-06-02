@@ -2,6 +2,31 @@ body {
     
 }
 
-button {
-    background-color: aqua;
+button { 
+    alt: unset; 
+    margin-top: 10px !important;
+    border: 2px solid aqua;
+    border-radius: 10px !important;
+    background-color: transparent;
+    color: aqua;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form {
+    width: 60% !important;
+    margin: 0 auto !important;
+}
+
+button:hover {
+    background-color: rgba(0, 255, 255, 0.1);
+    color: #00ffff;
+}
+
+button:active {
+    background-color: rgba(0, 255, 255, 0.3);
+    border-color: #00cccc;
+    color: #00cccc;
 }
